@@ -1,0 +1,39 @@
+.hero {
+    background: url("../img/back.png") center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 115px 0;
+}
+
+.hero__content {
+    max-width: 550px;
+}
+
+.hero__content-title {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 76px;
+    margin-bottom: 40px;
+}
+
+.hero__content-text {
+    line-height: 30px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.hero__img {
+    position: relative;
+}
+
+.hero__img-sun {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.hero__img-battery {
+    width: 500px;
+}
