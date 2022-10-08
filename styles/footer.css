@@ -1,0 +1,36 @@
+.footer {
+    font-weight: 600;
+    background: #fff;
+    padding: 90px 20px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.footer__group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.footer__title {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.footer__link {
+    margin-bottom: 15px;
+}
+
+.footer__link:hover {
+    color: rgb(19 194 36 / 88%);
+}
+
+.footer__copyright {
+    text-align: center;
+    opacity: 0.5;
+}

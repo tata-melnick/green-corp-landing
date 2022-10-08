@@ -18,3 +18,8 @@ header a {
 .header__logo {
     height: 30px;
 }
+
+.header__contacts:hover {
+    color: rgb(19 194 36);
+
+}
