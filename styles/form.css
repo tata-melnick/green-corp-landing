@@ -1,0 +1,58 @@
+.form {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: #1D263A;
+    text-align: center;
+    padding: 115px 0;
+}
+
+.form__container {
+    width: 550px;
+
+}
+
+.form__title {
+    font-size: 48px;
+}
+
+.form__text {
+    opacity: 0.65;
+    margin-bottom: 80px;
+}
+
+.form__groups {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form__group-lable {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.form__group-input {
+    color: #213053;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.form__group-select {
+    color: #213053;
+    font-weight: 600;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    appearance: none;
+}

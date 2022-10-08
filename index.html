@@ -3,7 +3,11 @@
 
 <head>
   <title>Солнечные батареи GreenCorp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -15,19 +19,52 @@
     </div>
   </header>
   <section class="hero">
-    <div class="hero__content">
+    <div class="hero__content animate__animated animate__fadeInLeft animate__slow">
       <h1 class="hero__content-title">Солнечные панели GreenRobotic</h1>
       <div class="hero__content-text">Производите дешёвую экологически чистую электроэнергию из солнечного света</div>
-      <button class="hero__btn">Узнать подробнее</button>
+      <button class="hero__btn">Узнать подробнее <i class="fas fa-angle-right"></i></button>
     </div>
-    <div class="hero__img">
+    <div class="hero__img animate__animated animate__fadeInRight animate__slow">
       <img src="./img/sun.png" alt="img" class="hero__img-sun">
       <img src="./img/solar-panel.png" alt="img" class="hero__img-battery">
     </div>
   </section>
+  <section class="form">
+    <div class="form__container">
+      <h2 class="form__title">Оставьте свои контакты</h2>
+      <div class="form__text">Поможем подобрать модель.<br>Выбрать удобный вариант доставки и установкию.<br>Гарантия
+        возврата
+        денег.</div>
+      <form action="" class="form__groups">
+        <div class="form__group">
+          <label class="form__group-lable" for="name">Ваше имя</label>
+          <input class="form__group-input" type="text" placeholder="Введите имя" id="name">
+        </div>
+        <div class="form__group">
+          <label class="form__group-lable" for="email">Электронный адрес</label>
+          <input class="form__group-input" type="email" placeholder="***@yandex.ru" id="email">
+        </div>
+        <div class="form__group">
+          <label class="form__group-lable" for="tel">Номер телефона</label>
+          <input class="form__group-input" type="tel" placeholder="7 (999) 99-99-99" id="tel">
+        </div>
+        <div class="form__group">
+          <label class="form__group-lable">Примерный бюджет</label>
+          <select class="form__group-select">
+            <option>Выберите вариант</option>
+            <option value="10-30">10 000₽ – 30 000₽</option>
+            <option value="30-60">30 000₽ – 60 000₽</option>
+            <option value="60-100">60 000₽ – 100 000₽</option>
+            <option value="100+">100 000₽</option>
+          </select>
+        </div>
+        <button class="form__btn">Отправить заявку</button>
+      </form>
+    </div>
+  </section>
+  <footer>
 
-
-
+  </footer>
 </body>
 
 </html>
