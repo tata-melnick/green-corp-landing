@@ -1,12 +1,7 @@
-html, body {
-    min-height: 100vh;
-}
-
 body {
     font-family: "Raleway", Helvetica, sans-serif;
     color: #213053;
     font-size: 18px;
-    min-width: 320px;
     margin: 0;
 }
 
@@ -15,12 +10,9 @@ a {
     color: #213053;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 button {
-    font-size: 15px;
+    font-size: 18px;
+    font-family: "Raleway", Helvetica, sans-serif;
     color: #fff;
     background-color: #23a030;
     border-radius: 15px;
@@ -36,6 +28,10 @@ button:hover {
     transition: .3s ease-in;
 }
 
+.header__btn {
+    font-size: 15px;
+}
+
 .hero__btn {
     border-radius: 20px;
     padding: 20px 25px;
@@ -43,6 +39,5 @@ button:hover {
 
 .form__btn {
     font-weight: 600;
-    padding: 20px;
     margin-top: 40px;
 }

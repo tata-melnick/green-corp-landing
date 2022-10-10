@@ -19,7 +19,13 @@ header a {
     height: 30px;
 }
 
+.header__contacts {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
 .header__contacts:hover {
     color: rgb(19 194 36);
-
+    transition: .3s;
 }
