@@ -29,3 +29,7 @@
     color: rgb(19 194 36);
     transition: .3s;
 }
+
+.header__btn {
+    font-size: 15px;
+}

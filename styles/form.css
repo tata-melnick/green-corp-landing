@@ -50,3 +50,8 @@
 .form__group-select {
     appearance: none;
 }
+
+.form__btn {
+    font-weight: 600;
+    margin-top: 40px;
+}
