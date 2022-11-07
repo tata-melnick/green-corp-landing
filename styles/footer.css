@@ -20,7 +20,7 @@
 .footer__title {
     font-size: 16px;
     opacity: .7;
-    margin-bottom: 30px;
+    margin: 16px 0 30px;
 }
 
 .footer__link {
