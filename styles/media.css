@@ -72,6 +72,10 @@
         align-items: initial;
     }
 
+    .feedback__box {
+        height: 120px;
+    }
+
     .feedback__title {
         margin: 30px 0;
     }
