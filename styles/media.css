@@ -20,6 +20,10 @@
     .hero__img-battery {
         width: 280px;
     }
+
+    .feedback__box {
+        height: 70%;
+    }
 }
 
 @media (max-width: 720px) {
