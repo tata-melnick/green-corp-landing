@@ -38,7 +38,7 @@
     margin-bottom: 20px;
 }
 
-.form__group-input, .form__group-select {
+.form__group-input {
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -49,6 +49,13 @@
 }
 
 .form__group-select {
+    font-size: 18px;
+    color: #213053;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
     appearance: none;
 }
 
